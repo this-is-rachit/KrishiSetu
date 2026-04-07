@@ -1,0 +1,9 @@
+<resources>
+    <style name="Theme.KrishiSetu" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#F0FFF7</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_splash_logo</item>
+        <item name="postSplashScreenTheme">@style/Theme.KrishiSetu.Main</item>
+    </style>
+
+    <style name="Theme.KrishiSetu.Main" parent="android:Theme.Material.Light.NoActionBar"/>
+</resources>
